@@ -2,6 +2,9 @@
 REST_API_URL = 'https://openapi.blofin.com'
 WEBSOCKET_PUBLIC_URL = 'wss://openapi.blofin.com/ws/public'
 WEBSOCKET_PRIVATE_URL = 'wss://openapi.blofin.com/ws/private'
+DEMO_REST_API_URL = 'https://demo-trading-openapi.blofin.com'
+DEMO_WEBSOCKET_PUBLIC_URL = 'wss://demo-trading-openapi.blofin.com/ws/public'
+DEMO_WEBSOCKET_PRIVATE_URL = 'wss://demo-trading-openapi.blofin.com/ws/private'
 
 ### API Endpoints
 
