@@ -1,4 +1,4 @@
-from blofin.constants import REST_API_URL, WEBSOCKET_PUBLIC_URL, WEBSOCKET_PRIVATE_URL
+from blofin.constants import REST_API_URL, WEBSOCKET_PUBLIC_URL, WEBSOCKET_PRIVATE_URL, DEMO_REST_API_URL, DEMO_WEBSOCKET_PUBLIC_URL, DEMO_WEBSOCKET_PRIVATE_URL
 from blofin.exceptions import (
     BloFinAPIException, BloFinRequestException, BloFinParameterException,
     BloFinAuthException, BloFinOrderException, BloFinPositionException,
