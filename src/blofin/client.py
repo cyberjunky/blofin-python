@@ -15,10 +15,11 @@ from blofin.utils import check_auth_credentials
 # Rest of the client.py content...
 
 class BloFinClient:
-    def __init__(self, api_key=None, api_secret=None, passphrase=None, use_server_time=False):
+    def __init__(self, api_key=None, api_secret=None, passphrase=None, use_server_time=False, demo_trading=False):
         self.auth = Auth(api_key, api_secret, passphrase, use_server_time)
         self.use_server_time = use_server_time
         self.authenticated = check_auth_credentials(api_key, api_secret, passphrase)
+        self.demo_trading = demo_trading
 
         if not self.authenticated:
             print("Warning: API credentials not provided. Some methods requiring authentication will not be accessible.")
